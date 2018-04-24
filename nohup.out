@@ -1,0 +1,228 @@
+./code.py:34: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [13/Apr/2018 06:32:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 06:32:57] "GET /off HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2018 06:33:05] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 06:33:13] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 07:15:38] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 07:41:48] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 07:41:53] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 12:53:18] "GET /on HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2018 12:53:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 12:53:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2018 23:32:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2018 23:32:25] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2018 23:32:26] "GET /on HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2018 01:03:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 01:03:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2018 01:03:29] "GET /on HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2018 02:21:07] "GET /led/off?User-Agent=Mozilla%2F5.0+%28Linux%3B+Android+6.0.1%3B+Nexus+6P+Build%2FMMB29P%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F47.0.2526.83+Mobile+Safari%2F537.36%0A HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 06:37:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 06:37:45] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 06:37:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2018 06:37:50] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 11:23:53] "GET /on HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2018 11:23:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 11:23:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2018 12:09:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2018 12:09:54] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 00:33:25] "GET /on HTTP/1.1" 404 -
+127.0.0.1 - - [16/Apr/2018 00:33:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 00:33:25] "GET /favicon.ico HTTP/1.1" 404 -
+./code.py:34: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [16/Apr/2018 00:46:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 00:54:56] "GET / HTTP/1.1" 200 -
+code.py:34: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [16/Apr/2018 12:55:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 12:55:51] "GET /off HTTP/1.1" 404 -
+127.0.0.1 - - [16/Apr/2018 12:55:56] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 14:35:59] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 14:45:32] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 15:11:45] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2018 15:11:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Apr/2018 15:14:35] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:09:11] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:09:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Apr/2018 02:09:20] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:09:21] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:13:33] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:13:34] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:14:15] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:14:34] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:14:35] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:17:33] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:18:25] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:18:42] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:26:54] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:26:58] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:35:40] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 02:35:43] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 03:14:55] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 03:15:02] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 03:28:57] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 03:28:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Apr/2018 06:30:15] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2018 08:32:03] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 04:17:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 04:17:00] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 04:17:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Apr/2018 04:17:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Apr/2018 04:49:20] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 04:49:25] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 04:54:03] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 04:54:10] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 05:15:33] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 05:16:08] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 05:46:06] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 05:46:15] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 05:46:24] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 05:48:05] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 06:26:12] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 06:26:21] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 06:26:32] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 06:50:36] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 07:19:04] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 07:49:15] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 07:49:47] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 07:58:27] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2018 07:58:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Apr/2018 02:01:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:01:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Apr/2018 02:01:18] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:01:22] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:01:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:04:04] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:50:05] "GET /led/temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:50:30] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:51:18] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:51:21] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:51:23] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 02:51:35] "GET /led/temp HTTP/1.1" 200 -
+./code.py:34: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Apr/2018 05:49:43] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:49:53] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:49:59] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:50:28] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:50:42] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:23] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:50] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:53] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:54] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:56] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:57] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:55:59] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:56:58] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:57:00] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 05:57:01] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:15:37] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:15:48] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:17:16] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:24:04] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:24:10] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:24:16] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:25:18] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:25:26] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:25:31] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:26:07] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:26:12] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:26:21] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:27:18] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:27:23] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:27:34] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:27:40] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:27:45] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2018 07:28:23] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 01:52:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 01:52:07] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 01:52:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Apr/2018 01:52:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Apr/2018 07:01:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:01:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Apr/2018 07:01:37] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:01:43] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:01:50] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:02:11] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:02:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:03:01] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 07:03:04] "GET /led/off HTTP/1.1" 200 -
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+./code.py:34: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [20/Apr/2018 10:07:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:07:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:07:38] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:07:40] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:08:04] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:08:09] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:08:15] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:08:16] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:08:29] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:08:56] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:09:02] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:09:04] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:10:32] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:16:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:34:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:34:12] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 10:34:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Apr/2018 10:34:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Apr/2018 11:11:09] "GET /led/on HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 11:11:15] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 11:51:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2018 12:13:58] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 01:33:28] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 01:33:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 01:33:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Apr/2018 01:33:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Apr/2018 05:44:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 05:45:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 08:25:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 09:06:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 09:06:18] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2018 09:06:24] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 00:23:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 00:23:59] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 00:23:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Apr/2018 00:24:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Apr/2018 02:03:23] "GET / HTTP/1.1" 200 -
+code.py:34: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Apr/2018 02:51:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 02:52:00] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 02:52:04] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 02:52:34] "GET / HTTP/1.1" 200 -
+index.py:29: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Apr/2018 14:46:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 14:46:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Apr/2018 14:46:07] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [22/Apr/2018 14:46:07] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 01:53:09] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 01:53:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 01:53:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2018 01:53:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2018 02:02:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 02:02:23] "GET /favicon.ico HTTP/1.1" 404 -
+/home/pi/flask/Remote/GPIO/control.py:10: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT)
+ * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Apr/2018 14:27:45] "GET /temp HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 23:04:28] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 23:04:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2018 23:04:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2018 23:04:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Apr/2018 08:41:47] "GET /led/off HTTP/1.1" 200 -
+127.0.0.1 - - [24/Apr/2018 08:41:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Apr/2018 08:41:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Apr/2018 08:41:50] "GET /favicon.ico HTTP/1.1" 404 -
